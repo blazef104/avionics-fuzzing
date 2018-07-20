@@ -1,0 +1,6 @@
+converter.sh is used to convert the file from the RTCA provided format to the dowlnik format accepted by uat2text (the format generated bu dump978) 
+
+runner.sh is used to run the files contained in a specified folder continuously through a chosen binary
+
+message_generator.py buggy and yet undocumented tool to generate a valid crc for crafted messages
+

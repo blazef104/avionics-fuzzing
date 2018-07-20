@@ -1,0 +1,15 @@
+1. You can find the synthetic vulnerabilities introduced into
+dump1090 and dump978 source code by searching for:
+
+    AFL-FUZZ
+
+2. To correlate the source code vulnerabilities to binary builds:
+
+    dump1090-cbf122f-stratux-latest-vuln0 = dump1090-cbf122f-stratux-latest-mode_s.c @ 460
+    dump1090-cbf122f-stratux-latest-vuln1 = dump1090-cbf122f-stratux-latest-mode_s.c @ 724
+    dump1090-cbf122f-stratux-latest-vuln2 = dump1090-cbf122f-stratux-latest-mode_s.c @ 1038
+    dump1090-8236319-antirez-first = dump1090-8236319-antirez.c @ 1475
+    extract_nexrad-9aea4f4-dump978-latest-vuln0 = extract_nexrad-9aea4f4-dump978-latest-extract_nexrad.c @ 162
+    extract_nexrad-9aea4f4-dump978-latest-vuln0 = extract_nexrad-9aea4f4-dump978-latest-extract_nexrad.c @ 200
+    extract_nexrad-9aea4f4-dump978-latest-vuln0 = extract_nexrad-9aea4f4-dump978-latest-extract_nexrad.c @ 162 AND 200
+    uat2text-9aea4f4-dump978-latest-vuln0 = uat2text-9aea4f4-dump978-latest-uat_decode.c @ 578

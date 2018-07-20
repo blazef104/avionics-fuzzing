@@ -1,0 +1,609 @@
+{
+    "segments": [
+        {
+            "start": 65536,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "25961f4d87cd511962992d38b2b149ce.bin",
+            "name": "/home/pi/dump1090_vuln",
+            "end": 106496
+        },
+        {
+            "start": 167936,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "d040b214c982979ac981a314120e7d15.bin",
+            "name": "/home/pi/dump1090_vuln",
+            "end": 172032
+        },
+        {
+            "start": 172032,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "334e12900fef4c7a3024143eac3860c1.bin",
+            "name": "/home/pi/dump1090_vuln",
+            "end": 176128
+        },
+        {
+            "start": 176128,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "99480fd42164d5654e3dfe894a13c91f.bin",
+            "name": "[heap]",
+            "end": 315392
+        },
+        {
+            "start": 1984339968,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "",
+            "end": 1984344064
+        },
+        {
+            "start": 1984344064,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "12e1ff0b44da4384158b6bf2d2bfac07.bin",
+            "name": "",
+            "end": 1993523200
+        },
+        {
+            "start": 1993523200,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "b5cc7768efba96e574bc0139f7f31fe3.bin",
+            "name": "/lib/arm-linux-gnueabihf/libgcc_s.so.1",
+            "end": 1993637888
+        },
+        {
+            "start": 1993637888,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/libgcc_s.so.1",
+            "end": 1993699328
+        },
+        {
+            "start": 1993699328,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "840143349c4881812ef4b8b8e5a6c324.bin",
+            "name": "/lib/arm-linux-gnueabihf/libgcc_s.so.1",
+            "end": 1993703424
+        },
+        {
+            "start": 1993703424,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "84f730c3f999bbeb34ffce502ddc518a.bin",
+            "name": "/lib/arm-linux-gnueabihf/libgcc_s.so.1",
+            "end": 1993707520
+        },
+        {
+            "start": 1993707520,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "be659042118b8ab093881d04e588709c.bin",
+            "name": "/lib/arm-linux-gnueabihf/librt-2.24.so",
+            "end": 1993732096
+        },
+        {
+            "start": 1993732096,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/librt-2.24.so",
+            "end": 1993793536
+        },
+        {
+            "start": 1993793536,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "f0cb8adee558abb47be8873adc4b9f65.bin",
+            "name": "/lib/arm-linux-gnueabihf/librt-2.24.so",
+            "end": 1993797632
+        },
+        {
+            "start": 1993797632,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "b8b227f31143df6766a1fc6a21c8dd87.bin",
+            "name": "/lib/arm-linux-gnueabihf/librt-2.24.so",
+            "end": 1993801728
+        },
+        {
+            "start": 1993801728,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "96f4c2a347c44a6655ede4ea134cead2.bin",
+            "name": "/lib/arm-linux-gnueabihf/libudev.so.1.6.5",
+            "end": 1993912320
+        },
+        {
+            "start": 1993912320,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "54f537603ddab2b182ca04d0b929983c.bin",
+            "name": "/lib/arm-linux-gnueabihf/libudev.so.1.6.5",
+            "end": 1993916416
+        },
+        {
+            "start": 1993916416,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "93e74c37d6daf752eb49b8aa5760e7ac.bin",
+            "name": "/lib/arm-linux-gnueabihf/libudev.so.1.6.5",
+            "end": 1993920512
+        },
+        {
+            "start": 1993920512,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "3a1c51df595727f65489b653f200d06b.bin",
+            "name": "",
+            "end": 1993928704
+        },
+        {
+            "start": 1993928704,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "8ed9131db77693228cb951f627eca7e9.bin",
+            "name": "/lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0",
+            "end": 1994010624
+        },
+        {
+            "start": 1994010624,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0",
+            "end": 1994072064
+        },
+        {
+            "start": 1994072064,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "efbe4a4420e2892feab1c0418d2dd86e.bin",
+            "name": "/lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0",
+            "end": 1994076160
+        },
+        {
+            "start": 1994076160,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "ede6053028b52081d6863cfcf17fce75.bin",
+            "name": "/lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0",
+            "end": 1994080256
+        },
+        {
+            "start": 1994080256,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "7a9d986bdbb264bc5dda3894e7a75cf0.bin",
+            "name": "/lib/arm-linux-gnueabihf/libc-2.24.so",
+            "end": 1995296768
+        },
+        {
+            "start": 1995296768,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/libc-2.24.so",
+            "end": 1995362304
+        },
+        {
+            "start": 1995362304,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "db717a0feca2c16eee8bfca1561647a6.bin",
+            "name": "/lib/arm-linux-gnueabihf/libc-2.24.so",
+            "end": 1995370496
+        },
+        {
+            "start": 1995370496,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "33333bd1caff318979c13849e2f74ec9.bin",
+            "name": "/lib/arm-linux-gnueabihf/libc-2.24.so",
+            "end": 1995374592
+        },
+        {
+            "start": 1995374592,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "1b8460903236ba5df051eb0be620bfd2.bin",
+            "name": "",
+            "end": 1995386880
+        },
+        {
+            "start": 1995386880,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "0e75783e0acd0be2758db0360477b288.bin",
+            "name": "/lib/arm-linux-gnueabihf/libm-2.24.so",
+            "end": 1995833344
+        },
+        {
+            "start": 1995833344,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/libm-2.24.so",
+            "end": 1995898880
+        },
+        {
+            "start": 1995898880,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "1b24b0898549237d87bb5030965cdd68.bin",
+            "name": "/lib/arm-linux-gnueabihf/libm-2.24.so",
+            "end": 1995902976
+        },
+        {
+            "start": 1995902976,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "60a64dcdbd5b01b38bfdcd70e81c652c.bin",
+            "name": "/lib/arm-linux-gnueabihf/libm-2.24.so",
+            "end": 1995907072
+        },
+        {
+            "start": 1995907072,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "ce2c22e27e50a77582e09fc263babb7b.bin",
+            "name": "/lib/arm-linux-gnueabihf/libpthread-2.24.so",
+            "end": 1995997184
+        },
+        {
+            "start": 1995997184,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/lib/arm-linux-gnueabihf/libpthread-2.24.so",
+            "end": 1996058624
+        },
+        {
+            "start": 1996058624,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "97d3fdafc28470cee84300fbf60efb6b.bin",
+            "name": "/lib/arm-linux-gnueabihf/libpthread-2.24.so",
+            "end": 1996062720
+        },
+        {
+            "start": 1996062720,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "e2785ea82acb10ce9ff3808493f78e4c.bin",
+            "name": "/lib/arm-linux-gnueabihf/libpthread-2.24.so",
+            "end": 1996066816
+        },
+        {
+            "start": 1996066816,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "9cc2c6ae72f49a62aaa8fcb6f218ba68.bin",
+            "name": "",
+            "end": 1996075008
+        },
+        {
+            "start": 1996075008,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "d7401f66b7bb20e1d07f868737ee2aba.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3",
+            "end": 1996124160
+        },
+        {
+            "start": 1996124160,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3",
+            "end": 1996185600
+        },
+        {
+            "start": 1996185600,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "88f1dc0a86b3e066cb11d7e57c93cadf.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3",
+            "end": 1996189696
+        },
+        {
+            "start": 1996189696,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "9a25ff4770b9bdc64a17bf5f0da21cc2.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3",
+            "end": 1996193792
+        },
+        {
+            "start": 1996193792,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "fcd0c82783a06ec54d6b149886254d94.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+            "end": 1996214272
+        },
+        {
+            "start": 1996214272,
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": "",
+            "name": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+            "end": 1996275712
+        },
+        {
+            "start": 1996275712,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "9359e646aec9b616bd470a0b37ed9333.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+            "end": 1996279808
+        },
+        {
+            "start": 1996279808,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "642b4e71f8387a0e2c645993ee3dbbdd.bin",
+            "name": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+            "end": 1996283904
+        },
+        {
+            "start": 1996283904,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "f8d7f28df604fc1f6f0c78e2073cc8f9.bin",
+            "name": "/lib/arm-linux-gnueabihf/ld-2.24.so",
+            "end": 1996419072
+        },
+        {
+            "start": 1996455936,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "24987e1c16c1550f32a3fd4422357836.bin",
+            "name": "",
+            "end": 1996468224
+        },
+        {
+            "start": 1996468224,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "aaef887bd742b2a85f5cbe99c19c732b.bin",
+            "name": "[sigpage]",
+            "end": 1996472320
+        },
+        {
+            "start": 1996472320,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "78e77551f6270740e8e0116c24d299e5.bin",
+            "name": "[vvar]",
+            "end": 1996476416
+        },
+        {
+            "start": 1996476416,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "ea95a9bf150a651492afb910fd956e50.bin",
+            "name": "[vdso]",
+            "end": 1996480512
+        },
+        {
+            "start": 1996480512,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "85ae8f23ce1a1cc2bd6a2943e70567a8.bin",
+            "name": "/lib/arm-linux-gnueabihf/ld-2.24.so",
+            "end": 1996484608
+        },
+        {
+            "start": 1996484608,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "e88a4637a141d4fac166c6a5ea545420.bin",
+            "name": "/lib/arm-linux-gnueabihf/ld-2.24.so",
+            "end": 1996488704
+        },
+        {
+            "start": 2130571264,
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "cf48a3d9d43fc61ab676139cb92a3e93.bin",
+            "name": "[stack]",
+            "end": 2130706432
+        },
+        {
+            "start": 4294901760,
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "3e9ffcdf28b3bcfc7483361eea0e0f26.bin",
+            "name": "[vectors]",
+            "end": 4294905856
+        }
+    ],
+    "regs": {
+        "r1": 131310,
+        "sp": 2130703720,
+        "r12": 0,
+        "cpsr": 536870928,
+        "r3": 0,
+        "r0": 1992728584,
+        "lr": 72464,
+        "pc": 88744,
+        "r4": 173000,
+        "r5": 173004,
+        "r2": 1,
+        "r8": 0,
+        "r7": 173032,
+        "r10": 0,
+        "r11": 0,
+        "r6": 177096,
+        "r9": 4
+    },
+    "arch": {
+        "arch": "armle"
+    }
+}

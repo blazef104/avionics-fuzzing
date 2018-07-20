@@ -1,0 +1,55 @@
+################################################################################
+
+UNICORN_MODE:
+
+    Install afl-unicorn from the github repo https://github.com/Battelle/afl-unicorn, e.g.,:
+        git clone https://github.com/Battelle/afl-unicorn
+        cd afl-unicorn
+        git reset --hard 0ae301f159862cad19194a8c9b8f20efb9981a73
+
+    Normally this requires root/sudo.
+    On some non-root/non-sudo systems (e.g., shared multi-CPU servers), we don't have root/sudo rights.
+    Therefore, some scripts were adapted to use a local prefix.
+        Use the patched build_unicorn_support.sh, i.e., build_unicorn_support_noroot.sh and put it over the one inside git's "afl-unicorn/unicorn_mode/"
+        Make sure you have local prefix dir ready, e.g.,:
+            mkdir -p $HOME/.local/
+        Then run the build using the local prefix dir, e.g.,:
+            cd afl-unicorn/unicorn_mode
+            PREFIX=$HOME/.local/ ./build_unicorn_support_noroot.sh
+
+    CapstoneEngine might be also useful:
+        #sudo pip install capstone
+        sudo pip2 install capstone
+        #sudo easy_install capstone
+        sudo easy_install-2.7 capstone
+        # On non-root/non-sudo
+        easy_install-2.7 --prefix $HOME/.local/
+
+################################################################################
+
+Then run the script in the unicorn_mode folder
+
+To run the fuzzer use the following command:
+
+  afl-fuzz -U -m none -t 4500 -i afl_in/ -o afl_out/ -- python test_harness_vuln.py UnicornContext_vuln/ @@
+
+The value for the -t parameter can be obtained with the time command, for example:
+
+  time python test_harness_dump1.py UnicornContext_detectModeS/ afl_in/input_20180410_130943.bin
+
+################################################################################
+
+In the tools folder there are 2 scripts:
+
+  - extract_from_memory.py -> given the address of the buffer/memory region it will dump the chosen portion of memory to a file
+    that can then be used as input for the test harness.
+
+  - unicorn_template_generator.py -> if you 'source unicorn_template_generator.py' inside a running session of gdb with GEF
+    (https://github.com/hugsy/gef) it will automatically try to generate a test_harness.py to use with AFL-Unicorn.
+    The script works best if you source it while on a breakpoint inside a function. It will probably work fine even if called in the main
+    but the resulting file might need a bit of tweaking.
+
+    !!! We must find a better way to get the address of the functions, the actual one gives inconsistent results.
+    Finding the address in the plt and skipping from there and not from the real one can be an option, finding the plt address can be trivial.
+    afl-unicorn has a strange behavior, I think some more effort is required to make it work in the correct way
+###################################################################################

@@ -1,0 +1,6 @@
+This binary is to be run in AFL QEMU mode, i.e., 
+    
+    afl-fuzz -Q ...
+
+Therefore it has to be compiled without AFL instrumentation, i.e., not with afl-gcc but with plain gcc.
+

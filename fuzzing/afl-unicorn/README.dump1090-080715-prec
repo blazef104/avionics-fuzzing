@@ -1,0 +1,26 @@
+TODO: detail how this file was obtained
+
+1. This dump1090-080715-prec is ARM binary from the stratux-v.0.1-08072015.img of Stratux for RPi
+
+2. This dump1090-080715-prec is extracted, after locally mounting the image using the following command:
+    sudo mount -o loop,offset=62914560 stratux-v.0.1-08072015.img /mnt
+    It was then successfully tested on the RPi by manually copying it on the SD card
+
+3. This dump1090-080715-prec is tracked to the following git repository and commit id:
+    https://github.com/cyoung/stratux/tree/081e329dac07ba29ecfb2357f4603450ee6d195d
+
+4. Running dump1090-080715-prec on the RPi, using GDB+GEF+unicorn_template_generator.py steps, the following files were created:
+    UnicornContext_detectModeS/ - A directory containing all the context informations (memory content and addresses, registers value)
+    test_harness_detectModeS.py - A python script that rebuilds the context using the files from the previous directory and the unicorn engine
+    unicorn_loader_detectModeS.py - This is a standard file distributed with afl-unicorn, the only change is the heap address
+
+5. Then we introduced the following vulnerability overflow+artificial sigsegv (source code in the src folder) into the dump1090.c of the
+https://github.com/antirez/dump1090/tree/823631979b74f83caa48da69c86f8967e4c17c47 
+
+6. Subsequently, using similar GDB+GEF+unicorn_template_generator.py steps, the following files were created:
+    UnicornContext_vuln - Standard directory as before
+    test_harness_vuln.py
+    unicorn_loader_vuln.py - The heap addres changes
+
+7. To make the generation of the above file (test_harness_XX.py) easier we developed the script /tools/unicorn_template_generator.py
+   This will automatically generate the needed file if sourced into GDB+GEF at a breakpoint.

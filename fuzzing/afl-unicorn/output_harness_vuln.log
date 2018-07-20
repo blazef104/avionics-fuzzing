@@ -1,0 +1,452 @@
+Loading context from UnicornContext_vuln/
+Loading process context index from UnicornContext_vuln/_index.json
+# DEBUG: Loading context for armle
+Enabling VFP code... 
+Reg r4 = 0x2a3c8
+Reg r4 = 0x2a3c8 
+ Check diff
+Reg r5 = 0x2a3cc
+Reg r5 = 0x2a3cc 
+ Check diff
+Reg r6 = 0x2b3c8
+Reg r6 = 0x2b3c8 
+ Check diff
+Reg r7 = 0x2a3e8
+Reg r7 = 0x2a3e8 
+ Check diff
+Reg r0 = 0x76c6a008
+Reg r0 = 0x76c6a008 
+ Check diff
+Reg r1 = 0x200ee
+Reg r1 = 0x200ee 
+ Check diff
+Reg r10 = 0x0
+Reg r10 = 0x0 
+ Check diff
+Reg r11 = 0x0
+Reg r11 = 0x0 
+ Check diff
+Reg sp = 0x7efff588
+Reg sp = 0x7efff588 
+ Check diff
+Reg r8 = 0x0
+Reg r8 = 0x0 
+ Check diff
+Reg r9 = 0x4
+Reg r9 = 0x4 
+ Check diff
+Reg r3 = 0x0
+Reg r3 = 0x0 
+ Check diff
+Reg r2 = 0x1
+Reg r2 = 0x1 
+ Check diff
+Reg lr = 0x11b10
+Reg lr = 0x11b10 
+ Check diff
+Reg r12 = 0x0
+Reg r12 = 0x0 
+ Check diff
+Reg cpsr = 0x20000010
+Reg cpsr = 0x20000010 
+ Check diff
+Reg pc = 0x15aa8
+Reg pc = 0x15aa8 
+ Check diff
+Mapping segment from 0000000000010000 - 000000000001a000 with perm=5: /home/pi/dump1090/dump1090
+Mapping segment from 0000000000029000 - 000000000002a000 with perm=1: /home/pi/dump1090/dump1090
+Mapping segment from 000000000002a000 - 000000000002b000 with perm=3: /home/pi/dump1090/dump1090
+Mapping segment from 000000000002b000 - 000000000004d000 with perm=3: [heap]
+Mapping segment from 000000007646a000 - 000000007646b000 with perm=0: 
+No content found for segment  @ 000000007646a000
+Mapping segment from 000000007646b000 - 0000000076d2c000 with perm=3: 
+Mapping segment from 0000000076d2c000 - 0000000076d48000 with perm=5: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d48000 - 0000000076d57000 with perm=0: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+No content found for segment /lib/arm-linux-gnueabihf/libgcc_s.so.1 @ 0000000076d48000
+Mapping segment from 0000000076d57000 - 0000000076d58000 with perm=1: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d58000 - 0000000076d59000 with perm=3: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d59000 - 0000000076d5f000 with perm=5: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d5f000 - 0000000076d6e000 with perm=0: /lib/arm-linux-gnueabihf/librt-2.24.so
+No content found for segment /lib/arm-linux-gnueabihf/librt-2.24.so @ 0000000076d5f000
+Mapping segment from 0000000076d6e000 - 0000000076d6f000 with perm=1: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d6f000 - 0000000076d70000 with perm=3: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d70000 - 0000000076d8b000 with perm=5: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8b000 - 0000000076d8c000 with perm=1: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8c000 - 0000000076d8d000 with perm=3: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8d000 - 0000000076d8f000 with perm=3: 
+Mapping segment from 0000000076d8f000 - 0000000076da3000 with perm=5: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076da3000 - 0000000076db2000 with perm=0: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+No content found for segment /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0 @ 0000000076da3000
+Mapping segment from 0000000076db2000 - 0000000076db3000 with perm=1: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076db3000 - 0000000076db4000 with perm=3: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076db4000 - 0000000076edd000 with perm=5: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076edd000 - 0000000076eed000 with perm=0: /lib/arm-linux-gnueabihf/libc-2.24.so
+No content found for segment /lib/arm-linux-gnueabihf/libc-2.24.so @ 0000000076edd000
+Mapping segment from 0000000076eed000 - 0000000076eef000 with perm=1: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076eef000 - 0000000076ef0000 with perm=3: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076ef0000 - 0000000076ef3000 with perm=3: 
+Mapping segment from 0000000076ef3000 - 0000000076f60000 with perm=5: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f60000 - 0000000076f70000 with perm=0: /lib/arm-linux-gnueabihf/libm-2.24.so
+No content found for segment /lib/arm-linux-gnueabihf/libm-2.24.so @ 0000000076f60000
+Mapping segment from 0000000076f70000 - 0000000076f71000 with perm=1: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f71000 - 0000000076f72000 with perm=3: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f72000 - 0000000076f88000 with perm=5: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f88000 - 0000000076f97000 with perm=0: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+No content found for segment /lib/arm-linux-gnueabihf/libpthread-2.24.so @ 0000000076f88000
+Mapping segment from 0000000076f97000 - 0000000076f98000 with perm=1: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f98000 - 0000000076f99000 with perm=3: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f99000 - 0000000076f9b000 with perm=3: 
+Mapping segment from 0000000076f9b000 - 0000000076fa7000 with perm=5: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fa7000 - 0000000076fb6000 with perm=0: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+No content found for segment /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3 @ 0000000076fa7000
+Mapping segment from 0000000076fb6000 - 0000000076fb7000 with perm=1: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fb7000 - 0000000076fb8000 with perm=3: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fb8000 - 0000000076fbd000 with perm=5: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fbd000 - 0000000076fcc000 with perm=0: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+No content found for segment /usr/lib/arm-linux-gnueabihf/libarmmem.so @ 0000000076fbd000
+Mapping segment from 0000000076fcc000 - 0000000076fcd000 with perm=1: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fcd000 - 0000000076fce000 with perm=3: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fce000 - 0000000076fef000 with perm=5: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 0000000076ff8000 - 0000000076ffb000 with perm=3: 
+Mapping segment from 0000000076ffb000 - 0000000076ffc000 with perm=5: [sigpage]
+Mapping segment from 0000000076ffc000 - 0000000076ffd000 with perm=1: [vvar]
+Mapping segment from 0000000076ffd000 - 0000000076ffe000 with perm=5: [vdso]
+Mapping segment from 0000000076ffe000 - 0000000076fff000 with perm=1: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 0000000076fff000 - 0000000077000000 with perm=3: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 000000007efdf000 - 000000007f000000 with perm=3: [stack]
+Mapping segment from 00000000ffff0000 - 00000000ffff1000 with perm=5: [vectors]
+Aligning segment to page boundary:
+  name:  [random]
+  start: 00000000ffff1000 -> 00000000ffff1000
+  end:   00000000ffffffff -> 0000000100000000
+Mapping segment from 00000000ffff1000 - 0000000100000000 with perm=7: [random]
+No content found for segment [random] @ 00000000ffff1000
+Reg r4 = 0x2a3c8
+Reg r5 = 0x2a3cc
+Reg r6 = 0x2b3c8
+Reg r7 = 0x2a3e8
+Reg r0 = 0x76c6a008
+Reg r1 = 0x200ee
+Reg r10 = 0x0
+Reg r11 = 0x0
+Reg sp = 0x0
+Reg r8 = 0x0
+Reg r9 = 0x4
+Reg r3 = 0x0
+Reg r2 = 0x1
+Reg lr = 0x0
+Reg r12 = 0x0
+Reg cpsr = 0x20000010
+Reg pc = 0x15aa8
+>>> cpsr: 0x0000000020000010
+>>>   lr: 0x0000000000011b10
+>>>   pc: 0x0000000000015aa8
+>>>   r0: 0x0000000076c6a008
+>>>   r1: 0x00000000000200ee
+>>>  r10: 0x0000000000000000
+>>>  r11: 0x0000000000000000
+>>>  r12: 0x0000000000000000
+>>>   r2: 0x0000000000000001
+>>>   r3: 0x0000000000000000
+>>>   r4: 0x000000000002a3c8
+>>>   r5: 0x000000000002a3cc
+>>>   r6: 0x000000000002b3c8
+>>>   r7: 0x000000000002a3e8
+>>>   r8: 0x0000000000000000
+>>>   r9: 0x0000000000000004
+>>>   sp: 0x000000007efff588
+Starting the forkserver by executing 1 instruction
+Loading input content from afl_in/input_20180410_130943.bin
+Allocated mutated input buffer @ 0x0000000076c6a008
+Executing from 0x0000000000015aa8 to 0x0000000000015bb0
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x13c58
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13c9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13cc8
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13da0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13db8
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13dc4
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13dd0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13df0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15a7c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x15a9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15f9c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x13c58
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13c9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13cc8
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13da0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13db8
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13dc4
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13dd0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13df0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15a7c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x15a9c
+addRecentlySeenICAOMessage, skipping
+Previous PC = 0x13184 Next = 0x13870
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x13c58
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13c9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13cc8
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13e54
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13e70
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13e80
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13e8c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13e98
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13eb0
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13fcc
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15a7c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x15a9c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x13c58
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13c9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13cc8
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13f38
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13f50
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15a7c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x15a9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15f9c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x13c58
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13c78
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13c9c
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13cc8
+putchar or printf or fflush, skipping
+0x116b8:	add	ip, pc, #0
+Previous PC = 0x116b8 Next = 0x13f38
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x13f50
+putchar or printf or fflush, skipping
+0x11538:	add	ip, pc, #0
+Previous PC = 0x11538 Next = 0x15a7c
+putchar or printf or fflush, skipping
+0x76e13a60:	ldr	r3, [pc, #0x194]
+Previous PC = 0x76e13a60 Next = 0x15a9c
+Final register state:
+>>> cpsr: 0x0000000060000010
+>>>   lr: 0x00000000000001fd
+>>>   pc: 0x0000000000015bb0
+>>>   r0: 0x0000000000000000
+>>>   r1: 0x0000000000000000
+>>>  r10: 0x000000000001fffd
+>>>  r11: 0x0000000076c6a008
+>>>  r12: 0x0000000000000001
+>>>   r2: 0x000000000001fffe
+>>>   r3: 0x0000000000000000
+>>>   r4: 0x000000000001fffe
+>>>   r5: 0x000000000003fffc
+>>>   r6: 0x000000000002b3c8
+>>>   r7: 0x0000000000000168
+>>>   r8: 0x0000000000000168
+>>>   r9: 0x0000000000000168
+>>>   sp: 0x000000007efff224
+Done.

@@ -1,0 +1,27 @@
+# avionics-fuzzing
+
+## Structure
+.
+├── fuzzing
+│   ├── afl-unicorn
+│   │   └── tools       -> Tools to make the fuzzing with afl-unicorn easier
+│   ├── bin             -> Compiled binaries to fuzz
+│   ├── data            -> Input for the fuzzer
+│   └── scripts         -> Scripts useful in the fuzzing phase (start afl, kill afl, etc)
+│
+├── src                 -> Original and vulnerable sources for the binaries with synthetic vulnerabilities
+│  
+└── tools               -> Generic tools, mainly used for dump978 and the RTCA supplement
+
+## Generic info
+
+To extract the precompiled dump1090 form the stratux images it is usually located in /usr/lib/fr24
+Usually the image should be mountable without problem using the mount command, if it doesn't work try:
+  - fdisk -l image.img
+
+  - find the offset of the interesting partition (start_block*sector_size)
+
+  - sudo mount -o loop,offset=*offset* image.img /mnt
+  - (sudo mount -o loop,offset=62914560 stratux-v.0.1-08072015.img /mnt)
+
+The file "dump1090-080715-prec" inculded in fuzzing/afl-unicorn is extracted form the first image of stratux ("stratux-v.0.1-080772015.img")

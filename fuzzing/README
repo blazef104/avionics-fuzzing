@@ -1,0 +1,35 @@
+The files are organized as follow:
+- The bin folder contains the binary files instrumented by afl-gcc
+- The data folder contains the input files that will be used as input from afl-fuzz
+- The start.sh script will create an afl folder containing two subfolders:
+        - in -> containing 1 subfolder per fuzzer with input files
+        - out -> containing 1 subfolder per fuzzer with the output and results
+
+The new script is structured as follow:
+  	
+	./start.sh Options [binParameters]
+	 
+	 -c Number of cores 
+	 -b path to binary 
+	 -d path to data file 
+	 -a afl options (right now only "-Q") 
+ 	 -r to resume the run 
+ 	binParameters are the parameters needed by the binary beeing fuzzed
+
+For example to run with 4 cores on the latest stratux build:
+
+   ./start.sh -c 4 -b bin/dump1090-cbf122f-stratux-latest -d data/1090_small.bin -- "--no-crc-check --ifile @@"
+   
+   for a non instumented binary use -a "-Q" to make afl run in QEMU mode
+   if you want to resume  a previous run just use the same command as a normal run but with the -r option 
+   
+The utility afl-whatsup can be used to get information about the running fuzzers with:
+  afl-whatsup afl/out/*afl_instance*
+
+Refer to this spreadsheed for more information about the binaries:
+
+  https://docs.google.com/spreadsheets/d/1KDa3k5UMx2JntFFl5VVp7oy4cixYmIkYbCud6QbTqN0/edit?usp=sharing
+
+**The 1090_smaller.bin file is a even smaller and stripped version of 1090_small.bin it contains just 1 message ( the 1090_small contains the same message but also some others with bad crc) and is significantly smaller than the previous one.
+
+

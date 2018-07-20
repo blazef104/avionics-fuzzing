@@ -1,0 +1,312 @@
+Loading context from UnicornContext_detectModeS/
+# DEBUG: Loading context for armle
+Enabling VFP code... 
+Reg r4 = 0x19918
+Reg r5 = 0x19918
+Reg r6 = 0x19918
+Reg sp = 0x7efff588
+Reg r12 = 0x0
+Reg r1 = 0x200ee
+Reg r10 = 0x7efff856
+Reg r11 = 0x0
+Reg r3 = 0x0
+Reg r8 = 0x7efff704
+Reg r9 = 0x1
+Reg pc = 0xd980
+Reg r7 = 0x0
+Reg lr = 0x9d94
+Reg r2 = 0x1
+Reg r0 = 0x76c6a008
+Reg cpsr = 0x20000010
+Mapping segment from 0000000000008000 - 0000000000012000 with perm=5: /home/pi/dump1090-v0.1-080715-prec
+Mapping segment from 0000000000019000 - 000000000001a000 with perm=3: /home/pi/dump1090-v0.1-080715-prec
+Mapping segment from 000000000001a000 - 000000000003c000 with perm=3: [heap]
+Mapping segment from 000000007646a000 - 000000007646b000 with perm=0: 
+Mapping segment from 000000007646b000 - 0000000076d2c000 with perm=3: 
+Mapping segment from 0000000076d2c000 - 0000000076d48000 with perm=5: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d48000 - 0000000076d57000 with perm=0: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d57000 - 0000000076d58000 with perm=1: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d58000 - 0000000076d59000 with perm=3: /lib/arm-linux-gnueabihf/libgcc_s.so.1
+Mapping segment from 0000000076d59000 - 0000000076d5f000 with perm=5: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d5f000 - 0000000076d6e000 with perm=0: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d6e000 - 0000000076d6f000 with perm=1: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d6f000 - 0000000076d70000 with perm=3: /lib/arm-linux-gnueabihf/librt-2.24.so
+Mapping segment from 0000000076d70000 - 0000000076d8b000 with perm=5: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8b000 - 0000000076d8c000 with perm=1: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8c000 - 0000000076d8d000 with perm=3: /lib/arm-linux-gnueabihf/libudev.so.1.6.5
+Mapping segment from 0000000076d8d000 - 0000000076d8f000 with perm=3: 
+Mapping segment from 0000000076d8f000 - 0000000076eb8000 with perm=5: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076eb8000 - 0000000076ec8000 with perm=0: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076ec8000 - 0000000076eca000 with perm=1: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076eca000 - 0000000076ecb000 with perm=3: /lib/arm-linux-gnueabihf/libc-2.24.so
+Mapping segment from 0000000076ecb000 - 0000000076ece000 with perm=3: 
+Mapping segment from 0000000076ece000 - 0000000076f3b000 with perm=5: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f3b000 - 0000000076f4b000 with perm=0: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f4b000 - 0000000076f4c000 with perm=1: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f4c000 - 0000000076f4d000 with perm=3: /lib/arm-linux-gnueabihf/libm-2.24.so
+Mapping segment from 0000000076f4d000 - 0000000076f63000 with perm=5: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f63000 - 0000000076f72000 with perm=0: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f72000 - 0000000076f73000 with perm=1: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f73000 - 0000000076f74000 with perm=3: /lib/arm-linux-gnueabihf/libpthread-2.24.so
+Mapping segment from 0000000076f74000 - 0000000076f76000 with perm=3: 
+Mapping segment from 0000000076f76000 - 0000000076f8a000 with perm=5: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076f8a000 - 0000000076f99000 with perm=0: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076f99000 - 0000000076f9a000 with perm=1: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076f9a000 - 0000000076f9b000 with perm=3: /lib/arm-linux-gnueabihf/libusb-1.0.so.0.1.0
+Mapping segment from 0000000076f9b000 - 0000000076fa7000 with perm=5: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fa7000 - 0000000076fb6000 with perm=0: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fb6000 - 0000000076fb7000 with perm=1: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fb7000 - 0000000076fb8000 with perm=3: /usr/lib/arm-linux-gnueabihf/librtlsdr.so.0.5.3
+Mapping segment from 0000000076fb8000 - 0000000076fbd000 with perm=5: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fbd000 - 0000000076fcc000 with perm=0: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fcc000 - 0000000076fcd000 with perm=1: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fcd000 - 0000000076fce000 with perm=3: /usr/lib/arm-linux-gnueabihf/libarmmem.so
+Mapping segment from 0000000076fce000 - 0000000076fef000 with perm=5: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 0000000076ff8000 - 0000000076ffb000 with perm=3: 
+Mapping segment from 0000000076ffb000 - 0000000076ffc000 with perm=5: [sigpage]
+Mapping segment from 0000000076ffc000 - 0000000076ffd000 with perm=1: [vvar]
+Mapping segment from 0000000076ffd000 - 0000000076ffe000 with perm=5: [vdso]
+Mapping segment from 0000000076ffe000 - 0000000076fff000 with perm=1: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 0000000076fff000 - 0000000077000000 with perm=3: /lib/arm-linux-gnueabihf/ld-2.24.so
+Mapping segment from 000000007efdf000 - 000000007f000000 with perm=3: [stack]
+Aligning segment to page boundary:
+  name:  [vectors]
+  start: 00000000ffff0000 -> 00000000ffff0000
+  end:   00000000ffffff00 -> 0000000100000000
+Mapping segment from 00000000ffff0000 - 0000000100000000 with perm=5: [vectors]
+Segment [random] already mapped. Moving on.
+Reg r4 = 0x19918
+Reg r5 = 0x19918
+Reg r6 = 0x19918
+Reg sp = 0x0
+Reg r12 = 0x0
+Reg r1 = 0x200ee
+Reg r10 = 0x7efff856
+Reg r11 = 0x0
+Reg r3 = 0x0
+Reg r8 = 0x7efff704
+Reg r9 = 0x1
+Reg pc = 0xd980
+Reg r7 = 0x0
+Reg lr = 0x0
+Reg r2 = 0x1
+Reg r0 = 0x76c6a008
+Reg cpsr = 0x20000010
+>>> cpsr: 0x0000000020000010
+>>>   lr: 0x0000000000009d94
+>>>   pc: 0x000000000000d980
+>>>   r0: 0x0000000076c6a008
+>>>   r1: 0x00000000000200ee
+>>>  r10: 0x000000007efff856
+>>>  r11: 0x0000000000000000
+>>>  r12: 0x0000000000000000
+>>>   r2: 0x0000000000000001
+>>>   r3: 0x0000000000000000
+>>>   r4: 0x0000000000019918
+>>>   r5: 0x0000000000019918
+>>>   r6: 0x0000000000019918
+>>>   r7: 0x0000000000000000
+>>>   r8: 0x000000007efff704
+>>>   r9: 0x0000000000000001
+>>>   sp: 0x000000007efff588
+Starting the forkserver by executing 1 instruction
+Loading input content from afl_in/input_20180410_130943.bin
+Allocated mutated input buffer @ 0x0000000076c6a008
+Executing from 0x000000000000d980 to 0x000000000000da18
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xbbb4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbbf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc20
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc70
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc88
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc94
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbca0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbcc0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xd930
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xd95c
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xbbb4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbbf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc20
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc70
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc88
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc94
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbca0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbcc0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xd930
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xd95c
+addRecentlySeenICAOMessage, skipping
+Previous PC = 0xb228 Next = 0xb85c
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xbbb4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbbf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc20
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbdac
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbdc8
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbdd8
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbde4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbdf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbe08
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbf34
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xd930
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xd95c
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xbbb4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbbf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc20
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbe98
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbeb0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xd930
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xd95c
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xbbb4
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbbcc
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbbf0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbc20
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9944 Next = 0xbe98
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xbeb0
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x97c4 Next = 0xd930
+putchar, printf, fflush or puts , skipping
+Previous PC = 0x9a40 Next = 0xd95c
+Final register state:
+>>> cpsr: 0x0000000060000010
+>>>   lr: 0x000000000000dbec
+>>>   pc: 0x000000000000da18
+>>>   r0: 0x0000000000000168
+>>>   r1: 0x0000000000000000
+>>>  r10: 0x0000000000000168
+>>>  r11: 0x00000000000001fd
+>>>  r12: 0x0000000000000325
+>>>   r2: 0x0000000000000000
+>>>   r3: 0x0000000000000000
+>>>   r4: 0x000000000001fffe
+>>>   r5: 0x000000000001fffe
+>>>   r6: 0x0000000076c6a008
+>>>   r7: 0x0000000000000000
+>>>   r8: 0x0000000000000168
+>>>   r9: 0x0000000000019918
+>>>   sp: 0x000000007efff21c
+Done.

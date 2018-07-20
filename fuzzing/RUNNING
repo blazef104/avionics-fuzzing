@@ -1,0 +1,7 @@
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/dump1090-cbf122f-stratux-latest-vuln0 -d data/1090_small.bin -- "--no-crc-check --ifile @@"
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/uat2text-9aea4f4-dump978-latest-vuln0 -d data/978_decoded -- "--ifile @@"
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/extract_nexrad-9aea4f4-dump978-latest-vuln0 -d data/nexrad_rle
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/extract_nexrad-9aea4f4-dump978-latest-vuln1 -d data/nexrad_norle
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/extract_nexrad-9aea4f4-dump978-latest-vuln2 -d data/nexrad_norle
+AFL_MEM=1024 ./start_noroot.sh -c 32 -b bin/extract_nexrad-9aea4f4-dump978-latest-vuln2 -d data/nexrad_rle
+
